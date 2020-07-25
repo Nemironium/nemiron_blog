@@ -1,15 +1,20 @@
 ---
-title: "Welcome To Codex"
-date: 2020-06-04T09:19:29-04:00
-slug: "example-post"
-description: "This is an example post for hugo-theme-codex."
-keywords: ["gohugo", "hugo", "go", "blog"]
-draft: false
-tags: ["hugo"]
+title: Welcome To Codex
+date: 2020-06-04T09:19:29.000-04:00
+slug: example-post
+description: This is an example post for hugo-theme-codex.
+keywords:
+- gohugo
+- hugo
+- go
+- blog
+tags:
+- hugo
 math: false
 toc: true
----
+draft: true
 
+---
 ## The standard Lorem Ipsum passage
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
