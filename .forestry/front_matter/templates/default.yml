@@ -30,3 +30,5 @@ fields:
   name: toc
   label: toc
   description: Includes a table of contents on screens &gt;1024px
+pages:
+- content/blog/тестовая-статья-на-русском.md
