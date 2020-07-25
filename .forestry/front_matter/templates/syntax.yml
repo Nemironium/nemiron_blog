@@ -11,12 +11,15 @@ fields:
 - type: text
   name: slug
   label: slug
+  description: The post filename
 - type: text
   name: description
   label: description
+  description: Post description used for SEO
 - type: list
   name: keywords
   label: keywords
+  description: Post keywords used for SEO
 - type: list
   name: tags
   label: tags
@@ -26,3 +29,4 @@ fields:
 - type: boolean
   name: toc
   label: toc
+  description: Includes a table of contents on screens &gt;1024px
