@@ -1,11 +1,30 @@
-title = "Nemiron blog"
-theme = "hugo-theme-codex" 
-languageCode = "ru"
 baseURL = "https://nemiron.me/"
-copyright = "© {year}"
-
+title = "Nemiron blog"
+enableRobotsTXT = true
+copyright = "© {year} Pavel Aleksandrov"
 # disqusShortname = "Nemiron"
 googleAnalytics = "UA-173573553-1" 
+
+# Theme settings
+theme = "hugo-theme-codex"
+# enableEmoji = true
+# showMenuLanguageChooser = true
+
+# # Languages
+# defaultContentLanguage = "ru"           # Default language to use
+# [languages]
+# [languages.en]
+#   title = "Blog nemiron.me"
+#   weight = 1
+#   LanguageName = "English"
+# [languages.ru]
+#   title = "Блог nemiron.me"
+#   weight = 2
+#   LanguageName = "По-русски"
+
+languageCode = "ru"
+
+
 
 # Optional params
 [params]
@@ -13,13 +32,12 @@ googleAnalytics = "UA-173573553-1"
 
   # Social networks
   # Currently, these icons are supported: 
-  # "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
+  # "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube", "Telegram"
   github = "https://github.com/Nemironium"
   email = "mailto:nemiron@outlook.com"
   linkedin = "https://linkedin.com/in/pavelaleksandrov"
   telegram = "https://t.me/nemiron"
   instagram = "https://www.instagram.com/nemironium/"
-  
   iconTitles = ["GitHub", "Email", "LinkedIn", "Telegram", "Instagram"]
 
 
@@ -48,4 +66,8 @@ googleAnalytics = "UA-173573553-1"
   title = "Blog"
   url = "/blog"
 
-
+[[menu.main]]
+  identifier = "cv"
+  name = "CV"
+  title = "CV"
+  url = "/cv"
