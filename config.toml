@@ -38,7 +38,7 @@ languageCode = "ru"
   linkedin = "https://linkedin.com/in/pavelaleksandrov"
   telegram = "https://t.me/nemiron"
   instagram = "https://www.instagram.com/nemironium/"
-  iconTitles = ["GitHub", "Email", "LinkedIn", "Telegram", "Instagram"]
+  iconOrder = ["GitHub", "Email", "LinkedIn", "Telegram", "Instagram"]
 
 
 # This disables Hugo's default syntax highlighting in favor
@@ -52,6 +52,21 @@ languageCode = "ru"
   # Set to false to disallow raw HTML in markdown files
   [markup.goldmark.renderer]
       unsafe = true
+
+# Algolia search
+[outputFormats.Algolia]
+  baseName = "algolia"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
+
+[params.algolia]
+  vars = ["title", "summary", "date", "publishdate", "expirydate", "description", "keywords", "permalink"]
+  params = ["categories", "tags"]
+
+# output for Algolia search
+[outputs]
+  home = ["HTML", "RSS", "Algolia"]
 
 # Controls the navigation
 [[menu.main]]
