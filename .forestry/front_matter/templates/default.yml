@@ -29,4 +29,4 @@ fields:
 - type: boolean
   name: toc
   label: toc
-  description: Includes a table of contents on screens >1024px
+  description: Includes a table of contents on screens &gt;1024px
