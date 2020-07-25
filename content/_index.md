@@ -1,6 +1,6 @@
 ---
-heading: Hi, It's nemiron Blog
+heading: Hi, I'm Pavel Aleksandrov
 subheading: Here I'll be write posts about my life
-handle: hugo-theme-codex
+handle: @nemiron
 
 ---
