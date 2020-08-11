@@ -1,15 +1,19 @@
 ---
-title: "Math Typesetting"
+title: Math Typesetting
 date: 2020-06-05
-slug: "math-typesetting"
-description: "A brief guide to setup KaTeX"
-keywords: ["gohugo", "hugo", "go", "blog"]
-draft: false
-tags: ["math"]
+slug: math-typesetting
+description: A brief guide to setup KaTeX
+keywords:
+- gohugo
+- hugo
+- go
+- blog
+tags:
+- math
 math: true
 toc: false
----
 
+---
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
 <!--more-->
 

@@ -12,6 +12,7 @@ tags:
 - hugo
 math: false
 toc: true
+draft: true
 
 ---
 ## The standard Lorem Ipsum passage
